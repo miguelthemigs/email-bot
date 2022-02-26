@@ -10,7 +10,7 @@ email_password = os.environ.get('DB_PASS')
 msg = EmailMessage()
 msg['Subject'] = 'BOM DIA'
 msg['From'] = email_address
-msg['To'] = 'miguelthemigs@gmail.com'
+msg['To'] = 'email@gmail.com'
 msg.set_content('bom dia linda')
 
 
